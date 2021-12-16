@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./.github/actions/hello-world-action
-#      - uses: fwal/setup-swift@v1.11.0
-#        with:
-#          swift-version: 5.5.2
-#      - run: swift build
+      - uses: fwal/setup-swift@v1.11.0
+        with:
+          swift-version: 5.5.2
+      - run: swift build
